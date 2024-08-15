@@ -100,12 +100,30 @@ while (aux > 0)
 Console.WriteLine(resultado);*/
 
 //lista 10
-
+/*
 Console.WriteLine("Digite um valor em reais");
 double reais = double.Parse(Console.ReadLine());
 Console.WriteLine("Qual a cotação atual?");
 double cotacao = double.Parse(Console.ReadLine());
 double total = reais * cotacao;
-Console.Write(total);
+Console.Write($"{total:F2}");*/
         
 
+//lista 11 
+/*
+int CalcularFatorial (int n)
+{
+    if(n < 2|| n == 0 || n<0)
+    {
+        return 1;
+    }
+    else
+    {
+        return n * CalcularFatorial(n-1);
+    }
+}
+
+Console.WriteLine("Digite um número maior que 2");
+int num = int.Parse(Console.ReadLine());
+Console.Write(CalcularFatorial(num));
+*/
