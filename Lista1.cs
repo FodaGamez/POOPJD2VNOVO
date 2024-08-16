@@ -7,12 +7,13 @@ bool booleando = 1>2;
 Console.WriteLine(booleando);
 Console.WriteLine(inteiro);
 Console.WriteLine(text);
-Console.WriteLine(flutuante);*/
-
+Console.WriteLine(flutuante);
+*/
 
 
 //lista2
-/*Console.WriteLine("Digite dois números inteiros.");
+/*
+Console.WriteLine("Digite dois números inteiros.");
 int a = int.Parse(Console.ReadLine());
 int b = int.Parse(Console.ReadLine());
 int adi = a+b;
@@ -23,18 +24,25 @@ int div = a/b;
 Console.WriteLine(adi);
 Console.WriteLine(sub);
 Console.WriteLine(mult);
-Console.WriteLine(div);*/
+Console.WriteLine(div);
+*/
+
+
 
 //lista3
 /*
 Console.WriteLine("Escreva seu nome de usuário e sua idade");
 string nome = Console.ReadLine();
 int idade = int.Parse(Console.ReadLine());
-Console.WriteLine($"Olá {nome}, você tem {idade} anos de idade");*/
+Console.WriteLine($"Olá {nome}, você tem {idade} anos de idade");
+*/
+
+
 
 
 //lista4
-/*Console.WriteLine("Digite seu número de usuário");
+/*
+Console.WriteLine("Digite seu número de usuário");
 int us = int.Parse(Console.ReadLine());
 if (us > 0){
     Console.WriteLine("Seu número de usuário é positivo");
@@ -46,13 +54,20 @@ else if(us == 0)
 else
 {
     Console.WriteLine("Seu número de usuário é negativo");
-}*/
+}
+*/
+
+
 
 //lista5
 /*
 for (int i = 0; i < 11; i++){
     Console.WriteLine(i);
-}*/
+}
+*/
+
+
+
 
 //lista 6
 /*
@@ -65,7 +80,10 @@ if (idade > 17)
 else
 {
     Console.WriteLine("Cresça");
-}*/
+}
+*/
+
+
 
 //lista 7
 /*
@@ -74,7 +92,10 @@ static void CalcularMedia(float nota1, float nota2, float nota3)
     float media = (nota1+nota2+nota3)/3;
     Console.WriteLine(media);
 }
-CalcularMedia(7.0f, 7.0f, 7.0f);*/
+CalcularMedia(7.0f, 7.0f, 7.0f);
+*/
+
+
 
 //lista 8 
 /*
@@ -84,8 +105,13 @@ Array.Sort(numeros);
 Console.WriteLine($"{numeros[0]} é o menor e {numeros[2]} é o maior");
 */
 
+
+
+
+
 //lista 9
-/*Console.WriteLine("Digite um número");
+/*
+Console.WriteLine("Digite um número");
 int num  = int.Parse(Console.ReadLine());
 int aux = num;
 int resultado = num;
@@ -97,7 +123,11 @@ while (aux > 0)
     aux = num;
     resultado = resultado + num;
 }
-Console.WriteLine(resultado);*/
+Console.WriteLine(resultado);
+*/
+
+
+
 
 //lista 10
 /*
@@ -106,8 +136,11 @@ double reais = double.Parse(Console.ReadLine());
 Console.WriteLine("Qual a cotação atual?");
 double cotacao = double.Parse(Console.ReadLine());
 double total = reais * cotacao;
-Console.Write($"{total:F2}");*/
-        
+Console.Write($"{total:F2}");
+*/
+    
+
+
 
 //lista 11 
 /*
@@ -126,4 +159,58 @@ int CalcularFatorial (int n)
 Console.WriteLine("Digite um número maior que 2");
 int num = int.Parse(Console.ReadLine());
 Console.Write(CalcularFatorial(num));
+*/
+
+
+
+//lista 12
+/*
+int fibonacci(int n)
+{
+    if (n<=2)
+    {
+        return 1; 
+    }
+    else
+    {
+        return fibonacci(n-1) + fibonacci(n-2);
+    }
+}
+Console.WriteLine("Forneça um número:");
+int n = int.Parse(Console.ReadLine());
+int i = 0;
+while(i < n)
+{
+    i++;
+    Console.Write(fibonacci(i) + " ");
+}
+*/
+
+
+//lista 13
+/*
+ static void ordenandoStrings(String[] array, int n)
+{
+    String aux;
+
+    for (int j = 0; j < n - 1; j++){
+        for (int i = j + 1; i < n; i++){
+            if (array[j].CompareTo(array[i]) > 0){
+                aux = array[j];
+                array[j] = array[i];
+                array[i] = aux;
+            }
+        }
+    }
+}
+//100% google, não vou esconder
+Console.WriteLine("Digite nomes lol");
+String[] array = Console.ReadLine().Split(" ");
+int n = array.Length;
+ordenandoStrings(array, n);
+Console.WriteLine("Strings em ordem: ");
+for(int i = 0; i < n; i++)
+{
+    Console.WriteLine("String " + (i + 1) + " é " + array[i]);
+}
 */
