@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("POOPJD2VNOVO")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1e7a6fce7f3603267fa9dc76bcb0e2a8c8f60596")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c8bd78a2d4fc6c9e4af78450e722a2581acf24e4")]
 [assembly: System.Reflection.AssemblyProductAttribute("POOPJD2VNOVO")]
 [assembly: System.Reflection.AssemblyTitleAttribute("POOPJD2VNOVO")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
