@@ -127,3 +127,4 @@ Console.WriteLine("Digite um número maior que 2");
 int num = int.Parse(Console.ReadLine());
 Console.Write(CalcularFatorial(num));
 */
+
